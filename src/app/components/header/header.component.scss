@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+
+  &__logo-wrapper {
+    display: block;
+    max-width: 200px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
