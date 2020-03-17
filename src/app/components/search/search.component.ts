@@ -7,16 +7,7 @@ import { Component, OnInit } from "@angular/core";
 })
 export class SearchComponent implements OnInit {
   startDate: Date = new Date();
-
-  // filterDate() {
-  //   const currentDate = new Date();
-  //   // console.log(date, " date");
-  //   console.log(currentDate);
-  //   return currentDate < this.startDate;
-  // }
   constructor() {}
 
-  ngOnInit(): void {
-    // console.log(this.startDate);
-  }
+  ngOnInit(): void {}
 }
